@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6BAE87E4-B30A-446F-BA38-82BAA418DD03"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC27750F-42FD-48DB-B799-0C4AF0F20BFA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVC/View/CustomCells/Takeaways/TakeawaysTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "loadImgURL(url:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F279F11-1F25-4BFE-8797-066020DA9613"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVC/View/CustomCells/Takeaways/TakeawaysTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "loadImgURL(url:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0F279F11-1F25-4BFE-8797-066020DA9613 - eb6353bef3089132"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Homework4_4.TakeawaysTableViewCell.loadImgURL(url: Swift.String) -&gt; ()"
+                  moduleName = "Homework4.4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhansuluukydyrova/Downloads/homework4.4%202%202/MVC/View/CustomCells/Takeaways/TakeawaysTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  uuid = "0F279F11-1F25-4BFE-8797-066020DA9613 - eb6353bef3089132"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Homework4_4.TakeawaysTableViewCell.loadImgURL(url: Swift.String) -&gt; ()"
+                  moduleName = "Homework4.4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhansuluukydyrova/Downloads/homework4.4%202%202/MVC/View/CustomCells/Takeaways/TakeawaysTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "384">
+               </Location>
+               <Location
+                  uuid = "0F279F11-1F25-4BFE-8797-066020DA9613 - eb6353bef3089132"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Homework4_4.TakeawaysTableViewCell.loadImgURL(url: Swift.String) -&gt; ()"
+                  moduleName = "Homework4.4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhansuluukydyrova/Downloads/homework4.4%202%202/MVC/View/CustomCells/Takeaways/TakeawaysTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "784">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D906866-D754-4A4D-A760-C97DBDB5C76C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVC/View/CustomCells/Takeaways/TakeawaysTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "loadImgURL(url:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2D906866-D754-4A4D-A760-C97DBDB5C76C - af917d048d55cf4d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Homework4_4.TakeawaysTableViewCell.loadImgURL(url: Swift.String) -&gt; ()"
+                  moduleName = "Homework4.4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhansuluukydyrova/Downloads/homework4.4%202%202/MVC/View/CustomCells/Takeaways/TakeawaysTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "2D906866-D754-4A4D-A760-C97DBDB5C76C - af917d048d55cf4d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Homework4_4.TakeawaysTableViewCell.loadImgURL(url: Swift.String) -&gt; ()"
+                  moduleName = "Homework4.4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhansuluukydyrova/Downloads/homework4.4%202%202/MVC/View/CustomCells/Takeaways/TakeawaysTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "340">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
