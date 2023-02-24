@@ -121,6 +121,16 @@ class ProfileViewController: UIViewController {
        setupView()
        setupLayout()
         
+//         userdefaults
+        retriveDefaults()
+        
+//         keychain
+        let email = emailTextField.text
+        let data = Data("\(dataTextField.text)".utf8)
+        let adress = addressTextField.text
+        
+        KeyChainManager.shared.save(email!, data: data, address: adress!)
+        
     }
     
     
@@ -220,6 +230,13 @@ class ProfileViewController: UIViewController {
     }
     
     @objc func signUser() {
+        
+//              UserDefaults
+        UserDefaults.standard.set(emailTextField.text, forKey: "Email")
+        UserDefaults.standard.set(dataTextField.text, forKey: "Data")
+        UserDefaults.standard.set(addressTextField.text, forKey: "Address")
+        
+        
         guard let email = emailTextField.text, !email.isEmpty,
               let adress = addressTextField.text, !adress.isEmpty else {
             return
@@ -238,6 +255,15 @@ class ProfileViewController: UIViewController {
             print("You have sign in")
         })
         
+    }
+    
+//     func save Userdefaults
+    
+    func retriveDefaults() {
+        let name = UserDefaults.standard.string(forKey: "Email")
+        let data = UserDefaults.standard.string(forKey: "Data")
+        let address = UserDefaults.standard.string(forKey: "Address")
+        print("Name is \(name!), data: \(data!), his address: \(address!)")
     }
     
     private func showCreateAccount(email: String, password: String) {
