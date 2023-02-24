@@ -13,9 +13,20 @@
 		7800094E29A5FB3D006D75F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7800094C29A5FB3D006D75F6 /* Main.storyboard */; };
 		7800095029A5FB3E006D75F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7800094F29A5FB3E006D75F6 /* Assets.xcassets */; };
 		7800095329A5FB3E006D75F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7800095129A5FB3E006D75F6 /* LaunchScreen.storyboard */; };
+		7800095E29A5FC95006D75F6 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7800095D29A5FC95006D75F6 /* TabBarViewController.swift */; };
+		786356D129A5FD89002533EE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786356D029A5FD89002533EE /* ProfileViewController.swift */; };
+		786356D429A5FE02002533EE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786356D329A5FE02002533EE /* MainViewController.swift */; };
+		786356D729A5FE52002533EE /* KorzinaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786356D629A5FE52002533EE /* KorzinaViewController.swift */; };
+		786356DA29A5FED7002533EE /* KorzinaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786356D929A5FED7002533EE /* KorzinaCollectionViewCell.swift */; };
+		786356DD29A5FF62002533EE /* NetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786356DC29A5FF61002533EE /* NetworkAPI.swift */; };
+		786356E029A5FFDE002533EE /* InsideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786356DF29A5FFDE002533EE /* InsideViewController.swift */; };
+		7863570D29A6620B002533EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7863570C29A6620A002533EE /* GoogleService-Info.plist */; };
+		AF8173FD5FD3150A5B0BB711 /* Pods_CocktailsHW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F3840D328C95165AE30C8D /* Pods_CocktailsHW.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57F3840D328C95165AE30C8D /* Pods_CocktailsHW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocktailsHW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF7270C6CC7A52E14A17863 /* Pods-CocktailsHW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocktailsHW.debug.xcconfig"; path = "Target Support Files/Pods-CocktailsHW/Pods-CocktailsHW.debug.xcconfig"; sourceTree = "<group>"; };
 		7800094329A5FB3D006D75F6 /* CocktailsHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocktailsHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7800094629A5FB3D006D75F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7800094829A5FB3D006D75F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,15 @@
 		7800094F29A5FB3E006D75F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7800095229A5FB3E006D75F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7800095429A5FB3E006D75F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7800095D29A5FC95006D75F6 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		786356D029A5FD89002533EE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		786356D329A5FE02002533EE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		786356D629A5FE52002533EE /* KorzinaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KorzinaViewController.swift; sourceTree = "<group>"; };
+		786356D929A5FED7002533EE /* KorzinaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KorzinaCollectionViewCell.swift; sourceTree = "<group>"; };
+		786356DC29A5FF61002533EE /* NetworkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPI.swift; sourceTree = "<group>"; };
+		786356DF29A5FFDE002533EE /* InsideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsideViewController.swift; sourceTree = "<group>"; };
+		7863570C29A6620A002533EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE213E87EE1B0E1F8AB7A325 /* Pods-CocktailsHW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocktailsHW.release.xcconfig"; path = "Target Support Files/Pods-CocktailsHW/Pods-CocktailsHW.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF8173FD5FD3150A5B0BB711 /* Pods_CocktailsHW.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55EAA2BD245D9D3CAA8A770D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57F3840D328C95165AE30C8D /* Pods_CocktailsHW.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7800093A29A5FB3D006D75F6 = {
 			isa = PBXGroup;
 			children = (
 				7800094529A5FB3D006D75F6 /* CocktailsHW */,
 				7800094429A5FB3D006D75F6 /* Products */,
+				86FC18BD1F993CF78DD1EF59 /* Pods */,
+				55EAA2BD245D9D3CAA8A770D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +87,104 @@
 		7800094529A5FB3D006D75F6 /* CocktailsHW */ = {
 			isa = PBXGroup;
 			children = (
+				7863570C29A6620A002533EE /* GoogleService-Info.plist */,
+				786356DE29A5FFBD002533EE /* InsideCollectionView */,
+				786356D529A5FE20002533EE /* Korzina */,
+				786356D229A5FDF2002533EE /* Main */,
+				786356CF29A5FD77002533EE /* Profile */,
+				7800095B29A5FB4E006D75F6 /* Resourses */,
+				7800095A29A5FB43006D75F6 /* App */,
+			);
+			path = CocktailsHW;
+			sourceTree = "<group>";
+		};
+		7800095A29A5FB43006D75F6 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				7800094629A5FB3D006D75F6 /* AppDelegate.swift */,
 				7800094829A5FB3D006D75F6 /* SceneDelegate.swift */,
+				7800095C29A5FC76006D75F6 /* TabBar */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7800095B29A5FB4E006D75F6 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
 				7800094A29A5FB3D006D75F6 /* ViewController.swift */,
 				7800094C29A5FB3D006D75F6 /* Main.storyboard */,
 				7800094F29A5FB3E006D75F6 /* Assets.xcassets */,
 				7800095129A5FB3E006D75F6 /* LaunchScreen.storyboard */,
 				7800095429A5FB3E006D75F6 /* Info.plist */,
 			);
-			path = CocktailsHW;
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		7800095C29A5FC76006D75F6 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				7800095D29A5FC95006D75F6 /* TabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		786356CF29A5FD77002533EE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				786356D029A5FD89002533EE /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		786356D229A5FDF2002533EE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				786356D329A5FE02002533EE /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		786356D529A5FE20002533EE /* Korzina */ = {
+			isa = PBXGroup;
+			children = (
+				786356D629A5FE52002533EE /* KorzinaViewController.swift */,
+				786356D829A5FE94002533EE /* CollectionViewCell */,
+			);
+			path = Korzina;
+			sourceTree = "<group>";
+		};
+		786356D829A5FE94002533EE /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				786356D929A5FED7002533EE /* KorzinaCollectionViewCell.swift */,
+				786356DB29A5FF2E002533EE /* NetWorkAPI */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		786356DB29A5FF2E002533EE /* NetWorkAPI */ = {
+			isa = PBXGroup;
+			children = (
+				786356DC29A5FF61002533EE /* NetworkAPI.swift */,
+			);
+			path = NetWorkAPI;
+			sourceTree = "<group>";
+		};
+		786356DE29A5FFBD002533EE /* InsideCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				786356DF29A5FFDE002533EE /* InsideViewController.swift */,
+			);
+			path = InsideCollectionView;
+			sourceTree = "<group>";
+		};
+		86FC18BD1F993CF78DD1EF59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EF7270C6CC7A52E14A17863 /* Pods-CocktailsHW.debug.xcconfig */,
+				CE213E87EE1B0E1F8AB7A325 /* Pods-CocktailsHW.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7800095729A5FB3E006D75F6 /* Build configuration list for PBXNativeTarget "CocktailsHW" */;
 			buildPhases = (
+				2C99CDF869C2D4566FC9E90D /* [CP] Check Pods Manifest.lock */,
 				7800093F29A5FB3D006D75F6 /* Sources */,
 				7800094029A5FB3D006D75F6 /* Frameworks */,
 				7800094129A5FB3D006D75F6 /* Resources */,
+				29A77CFBF8CF29C8124F61FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7800095329A5FB3E006D75F6 /* LaunchScreen.storyboard in Resources */,
+				7863570D29A6620B002533EE /* GoogleService-Info.plist in Resources */,
 				7800095029A5FB3E006D75F6 /* Assets.xcassets in Resources */,
 				7800094E29A5FB3D006D75F6 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +256,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29A77CFBF8CF29C8124F61FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CocktailsHW/Pods-CocktailsHW-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CocktailsHW/Pods-CocktailsHW-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CocktailsHW/Pods-CocktailsHW-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C99CDF869C2D4566FC9E90D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CocktailsHW-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7800093F29A5FB3D006D75F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7800095E29A5FC95006D75F6 /* TabBarViewController.swift in Sources */,
 				7800094B29A5FB3D006D75F6 /* ViewController.swift in Sources */,
+				786356E029A5FFDE002533EE /* InsideViewController.swift in Sources */,
+				786356DD29A5FF62002533EE /* NetworkAPI.swift in Sources */,
+				786356D729A5FE52002533EE /* KorzinaViewController.swift in Sources */,
+				786356D129A5FD89002533EE /* ProfileViewController.swift in Sources */,
+				786356D429A5FE02002533EE /* MainViewController.swift in Sources */,
 				7800094729A5FB3D006D75F6 /* AppDelegate.swift in Sources */,
 				7800094929A5FB3D006D75F6 /* SceneDelegate.swift in Sources */,
+				786356DA29A5FED7002533EE /* KorzinaCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +454,7 @@
 		};
 		7800095829A5FB3E006D75F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EF7270C6CC7A52E14A17863 /* Pods-CocktailsHW.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,7 +462,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2X83VDWRY6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CocktailsHW/Info.plist;
+				INFOPLIST_FILE = CocktailsHW/Resourses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -310,6 +483,7 @@
 		};
 		7800095929A5FB3E006D75F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE213E87EE1B0E1F8AB7A325 /* Pods-CocktailsHW.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,7 +491,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2X83VDWRY6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CocktailsHW/Info.plist;
+				INFOPLIST_FILE = CocktailsHW/Resourses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
