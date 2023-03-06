@@ -164,11 +164,8 @@
 		28AC96F7296558EB002588CC /* MVC */ = {
 			isa = PBXGroup;
 			children = (
-				28A72FAB2961F77300E08B0C /* AppDelegate.swift */,
-				28A72FAD2961F77300E08B0C /* SceneDelegate.swift */,
-				284159852963453D0028BA54 /* Model */,
-				28415986296345470028BA54 /* View */,
-				284159872963454E0028BA54 /* Controller */,
+				7853802A29B6109E00A0B90E /* MVC project */,
+				7853802929B6108100A0B90E /* App */,
 				28415988296345770028BA54 /* Resources */,
 			);
 			path = MVC;
@@ -201,13 +198,31 @@
 			path = Takeaways;
 			sourceTree = "<group>";
 		};
+		7853802929B6108100A0B90E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				28A72FAB2961F77300E08B0C /* AppDelegate.swift */,
+				28A72FAD2961F77300E08B0C /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7853802A29B6109E00A0B90E /* MVC project */ = {
+			isa = PBXGroup;
+			children = (
+				284159852963453D0028BA54 /* Model */,
+				28415986296345470028BA54 /* View */,
+				284159872963454E0028BA54 /* Controller */,
+			);
+			path = "MVC project";
+			sourceTree = "<group>";
+		};
 		93BE99195346D0880E069B07 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				988B6D8AACB3EEA8A5A4F7DE /* Pods-Homework4.4.debug.xcconfig */,
 				41AA99E32838F58E5996BAD6 /* Pods-Homework4.4.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

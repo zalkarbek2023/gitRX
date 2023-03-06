@@ -60,21 +60,13 @@ final class NetworkLayer {
         
     }
     
-    func findProductsData(
-        text: String,
-        completion: @escaping (Result<MainProductModel, Error>) -> Void
-    ) {
-         let url = URL(string: "https://dummyjson.com/products")!
-
+    
+    func findProductsData(text: String) async throws -> MainProductModel {
         let urlQueryItem = URLQueryItem(name: "q", value: text)
+        let request = URLRequest(url: baseURL.appendingPathComponent("search").appending(queryItems: [urlQueryItem]))
 
-        let request = URLRequest(url: url.appendingPathComponent("search").appending(queryItems: [urlQueryItem]))
-
-        let task = URLSession.shared.dataTask(with: request) { data, response, error in
-            guard let data = data else { return }
-            self.decodeData(data: data, completion: completion)
-        }
-        task.resume()
+        let (data, _) = try await URLSession.shared.data(for: request)
+        return await decodeData(data: data)
     }
     
     
@@ -96,7 +88,6 @@ final class NetworkLayer {
 
     
 //                            PUT TO ASYNC AWAIT
-//
     func putProductsData(model: ProductModel, id: Int) async throws -> ProductModel {
         
         var encodedProductModel: Data?

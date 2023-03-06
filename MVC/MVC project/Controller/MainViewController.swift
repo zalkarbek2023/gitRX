@@ -162,7 +162,6 @@ extension MainViewController: UITableViewDelegate {
 }
 
 extension MainViewController {
-
         
         private func configureTakeawayDataArray()  {
             self.products = NetworkLayer.shared.fetchProductsData()

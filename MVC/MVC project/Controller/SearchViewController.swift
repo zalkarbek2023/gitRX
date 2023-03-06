@@ -31,17 +31,35 @@ class SearchViewController: UIViewController {
     }
     
     private func searchTakeawaysData(text: String) {
-        NetworkLayer.shared.findProductsData(text: text) { result in
-            switch result {
-            case .success(let model):
-                self.filteredProducts = model.products
-                DispatchQueue.main.async {
-                    self.productsTableView.reloadData()
-                }
-            case .failure(let error):
-                print(error.localizedDescription)
+//        NetworkLayer.shared.findProductsData(text: text) { result in
+//            switch result {
+//            case .success(let model):
+//                self.filteredProducts = model.products
+//                DispatchQueue.main.async {
+//                    self.productsTableView.reloadData()
+//                }
+//            case .failure(let error):
+//                print(error.localizedDescription)
+//            }
+//        }
+        Task {
+            do {
+                let result = try await NetworkLayer.shared.findProductsData(text: text)
+                displayS(result)
+            } catch  {
+                display(error)
             }
         }
+    }
+    
+    private func displayS(_ result: MainProductModel) {
+        DispatchQueue.main.async {
+            self.productsTableView.reloadData()
+        }
+    }
+    
+    private func display(_ error: Error) {
+        print("ERROR:\(error.localizedDescription)")
     }
     
 }

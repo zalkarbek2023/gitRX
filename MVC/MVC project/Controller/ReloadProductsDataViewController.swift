@@ -46,16 +46,6 @@ class ReloadProductsDataViewController: UIViewController {
     }
     
     private func putProductsData(model: ProductModel) {
-//        NetworkLayer.shared.putProductsData(id: Int(idTextField.text!)!, model: model) { result in
-//            switch result {
-//            case .success(_):
-//                DispatchQueue.main.async {
-//                    self.succesfulReloadingDataAlert()
-//                }
-//            case .failure(let error):
-//                print("ERROR: \(error.localizedDescription)")
-//            }
-//        }
         Task {
             do {
                 let result = try await NetworkLayer.shared.putProductsData(model: model, id: Int(idTextField.text!)!)
